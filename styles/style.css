@@ -1,0 +1,949 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'Open Sans';
+  src: url("../fonts/OpenSans.ttf");
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  color: #5e5e5e;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.top {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.first_page {
+  min-height: 768px;
+  background: -webkit-gradient(linear, left bottom, left top, color-stop(8.84%, #EBF3FB), color-stop(31.12%, rgba(152, 195, 232, 0)));
+  background: linear-gradient(0deg, #EBF3FB 8.84%, rgba(152, 195, 232, 0) 31.12%);
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 212px;
+}
+
+/* ---------------------------------------------------Начало стилизации первой страницы "index.html"----------------------------------------------*/
+.top_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.heading {
+  height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 42px;
+}
+
+.link {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.link a {
+  display: block;
+  text-decoration: none;
+  height: 100%;
+}
+
+.headcard {
+  padding-top: 115px;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  background-image: url(../images/head_bg.png);
+  background-repeat: no-repeat;
+  background-position: right center;
+  background-size: 44%;
+}
+
+.head_card_text {
+  font-size: 64px;
+  color: #1F3F68;
+  max-width: 504px;
+  font-weight: 300;
+  line-height: 74px;
+  letter-spacing: 0.04em;
+  margin-bottom: 32px;
+}
+
+.head_card_desc {
+  width: 425px;
+}
+
+.head_button {
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  background: #5A98D0;
+  -webkit-box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+          box-shadow: 5px 10px 20px rgba(53, 110, 173, 0.2);
+  border-radius: 10px;
+  padding: 15px 50px;
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 71px;
+}
+
+.text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+/*---------------------------------------------------Конец стилизации первой страницы "index.html"------------------------------------------------*/
+/* --------------------------------------------------Начало стилизации второй страницы "index.html"-----------------------------------------------*/
+.second_page_head {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+  padding-top: 64px;
+}
+
+.second_page_card {
+  width: 359px;
+  padding: 44px 32px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card_img {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  margin-bottom: 51px;
+}
+
+.card_head {
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-bottom: 14px;
+}
+
+.card_text {
+  font-size: 18px;
+  color: #4682B4;
+}
+
+.card_link {
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #5A98D0;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.second_page_foot {
+  min-height: 200px;
+  color: black;
+  font-size: 20px;
+}
+
+.finished_project_head {
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 46px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #000000;
+}
+
+.finished_project_text {
+  width: 75%;
+  margin: 32px auto 64px;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.05em;
+  color: #222222;
+}
+
+/* ---------------------------------------------------------Конец стилизации второй страницы "index.html"-----------------------------------------*/
+/* ---------------------------------------------------------Начало стилизации третьей страницы "index.html"---------------------------------------*/
+.smart_home_install {
+  position: relative;
+}
+
+.project_img {
+  width: 100%;
+}
+
+.project_text {
+  font-size: 32px;
+  line-height: 46px;
+  text-align: right;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 64px;
+  right: 64px;
+}
+
+.project_card-text {
+  font-size: 28px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  position: absolute;
+  top: 32px;
+  left: 32px;
+}
+
+.Apps {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 32px;
+}
+
+.third_page_card {
+  position: relative;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: 1;
+          flex-direction: 1;
+}
+
+.Apps_left_card {
+  margin-right: 32px;
+}
+
+.last_block {
+  background-color: #316099;
+  margin-top: 112px;
+}
+
+.work_contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 96px;
+}
+
+.work_block {
+  width: 495px;
+  color: white;
+  font-size: 20px;
+}
+
+.work_text_head {
+  width: 340px;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  padding: 91px 0 32px;
+}
+
+.work_text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.6;
+}
+
+.work_button {
+  width: 236px;
+  height: 56px;
+  background: #5A98D0;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  display: inline-block;
+  text-decoration: none;
+  padding: 15px 80px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.work_button:hover {
+  background-color: #00008B;
+}
+
+/* -------------------------------------------Конец стилизации третьей страницы "index.html"------------------------------------------------------*/
+/* -------------------------------------------Начало стилизации подвала страницы "index.html"-----------------------------------------------------*/
+hr {
+  opacity: 0.4;
+  border: 1px solid #FFFFFF;
+}
+
+.footer_contact {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.contact_block {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 64px 0px;
+}
+
+.rights {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  opacity: 0.4;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-bottom: 64px;
+  margin-top: 64px;
+}
+
+.contact_block ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.contact_block ul:first-child {
+  list-style-type: 'A. ';
+  margin-left: 20px;
+}
+
+.contact_block ul :last-child {
+  list-style-type: 'E. ';
+}
+
+.contact_block ul :nth-child(2) {
+  list-style-type: 'T. ';
+}
+
+/*----------------------------------------------- КОНЕЦ СТИЛИЗАЦИИ ФАЙЛА "index.html"--------------------------------------------------------------------*/
+/*----------------------------------------------- НАЧАЛО СТИЛИЗАЦИИ ФАЙЛА "Contacts.html"--------------------------------------------------------------------*/
+.contact_us_block {
+  background: linear-gradient(253.6deg, #98D0FC 2.46%, #3481D7 93.24%);
+  background-image: url(../images/contact_us_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contact_us {
+  margin-top: 55px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: black;
+}
+
+.contact_us_heading {
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 74px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  padding-top: 50px;
+}
+
+.contact_us_text {
+  max-width: 780px;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 16px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+}
+
+.contact_form {
+  margin-right: 20px;
+  padding-top: 100px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 301px;
+}
+
+.contact_form_address {
+  padding-top: 56px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contact_form_text {
+  padding-top: 24px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.6;
+}
+
+.contact_form ul {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.05em;
+  color: #1F3F68;
+  margin-left: 30px;
+  padding-top: 24px;
+}
+
+.contact_form ul :first-child {
+  margin-bottom: 16px;
+}
+
+.contact_form :nth-child(4) {
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.contact_form :nth-child(5) {
+  list-style-image: url("../images/phone.svg");
+}
+
+.contact_form :nth-child(6) {
+  padding-top: 40px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+}
+
+.online_service :first-child {
+  list-style-image: url("../images/site.svg");
+}
+
+.online_service :last-child {
+  list-style-image: url("../images/mail.svg");
+}
+
+.fill_box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 57px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.fill_form {
+  width: 600px;
+  font-weight: 500;
+  background: #FFFFFF;
+  -webkit-box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 10px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  padding-left: 56px;
+}
+
+.contacts {
+  margin-bottom: 96px;
+}
+
+.contact_card {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.send_message {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  margin: 56px 0 48px 0;
+}
+
+.user_id {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.04em;
+  color: #1F3F68;
+  opacity: 0.8;
+}
+
+#username {
+  width: 85%;
+  height: 70px;
+  border: 1.5px solid #B0C4DE;
+  border-radius: 0.5em;
+  padding-left: 22px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+#user_email {
+  width: 85%;
+  height: 70px;
+  border: 1.5px solid #B0C4DE;
+  border-radius: 0.5em;
+  padding: 0px 0px 0px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  margin-top: 8px;
+  margin-bottom: 32px;
+}
+
+#user_message {
+  width: 85%;
+  height: 140px;
+  border: 1.5px solid #B0C4DE;
+  border-radius: 0.5em;
+  padding: 40px 0px 0px 20px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-top: 8px;
+  margin-bottom: 72px;
+}
+
+.submit {
+  width: 85%;
+  height: 70px;
+  font-size: 20px;
+  background: #5A98D0;
+  -webkit-box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+          box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-bottom: 56px;
+}
+
+.map {
+  width: 100%;
+  height: 480px;
+}
+
+.footer_block {
+  min-height: 200px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 64px;
+}
+
+.footer_card {
+  width: 28.3%;
+  height: 100%;
+}
+
+.footer_card_head {
+  width: 92%;
+  height: 25%;
+  margin-left: 8%;
+  font-size: 20px;
+  padding-bottom: 32px;
+}
+
+.Afrianska {
+  margin-left: 20%;
+  width: 80%;
+  font-size: 25px;
+}
+
+.footer_card ul {
+  margin-top: 0px;
+  list-style-type: none;
+}
+
+.footer_card ul li {
+  margin-bottom: 15px;
+  margin-left: 30px;
+}
+
+#Afrianska li {
+  margin-bottom: 30px;
+}
+
+#Afrianska :first-child {
+  list-style-type: 'A.  ';
+}
+
+#Afrianska :nth-child(2) {
+  list-style-type: 'T.  ';
+}
+
+#Afrianska :last-child {
+  list-style-type: 'E.  ';
+}
+
+/*--------------------------------------------------------------МЕДИА ЗАПРОСЫ-----------------------------------------------------*/
+@media (max-width: 1024px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .headcard {
+    background-position: right 215px;
+  }
+  .cards {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .second_page_card {
+    margin-bottom: 32px;
+  }
+  .contact_us {
+    margin-top: 46px;
+  }
+  .contact_us_text {
+    max-width: 520px;
+  }
+  .fill_box {
+    margin-top: 64px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .contact_form_address {
+    padding-top: 64px;
+  }
+  .contact_form {
+    margin-bottom: 64px;
+  }
+  .fill_form {
+    padding-left: 54px;
+  }
+  .send_message {
+    margin: 54px 0 47px 0;
+  }
+  .contacts {
+    margin-bottom: 64px;
+  }
+  .map_container {
+    padding: 0;
+  }
+  .last_block {
+    margin-top: 64px;
+  }
+  .footer_container {
+    padding-right: 124px;
+    padding-left: 124px;
+  }
+  .work_block {
+    width: 336px;
+  }
+  .work_text_head {
+    padding-top: 47px;
+  }
+  .work_button {
+    width: 133.04px;
+    height: 31.48px;
+    padding: 3px 0 11px 0;
+  }
+  .work_contact {
+    padding-bottom: 64px;
+  }
+  #Afrianska li {
+    margin-bottom: 10px;
+  }
+  .footer_card_head {
+    margin-bottom: 30px;
+  }
+}
+
+@media (max-width: 667px) {
+  .contact_block ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+  .heading {
+    padding-top: 24px;
+  }
+  .headcard {
+    padding-top: 36px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-image: none;
+  }
+  .head_card_text {
+    width: 100%;
+    font-size: 32px;
+    line-height: 37px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .head_card_desc {
+    width: 100%;
+    text-align: center;
+  }
+  .head_button {
+    font-size: 12px;
+    line-height: 26px;
+    padding: 0 8px;
+  }
+  .first_page {
+    min-height: 376px;
+    padding-bottom: 41px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  .second_page_head {
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    padding-top: 48px;
+  }
+  .cards {
+    padding-top: 32px;
+  }
+  .second_page_card {
+    width: 100%;
+  }
+  .finished_project_text {
+    width: 100%;
+  }
+  .project_text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    right: 16px;
+  }
+  .project_card-text {
+    font-size: 16px;
+    line-height: 19px;
+    top: 16px;
+    left: 16px;
+  }
+  .Apps {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-top: 1px;
+  }
+  .Apps_left_card {
+    margin-right: 0;
+    margin-bottom: 16px;
+  }
+  .contact_us {
+    margin-top: 30px;
+  }
+  .contact_us_text {
+    max-width: 341px;
+    padding-top: 32px;
+    padding-bottom: 61px;
+  }
+  .contacts {
+    margin-bottom: 32px;
+  }
+  .contact_form {
+    margin-right: 0;
+    max-width: 342.67px;
+    padding-top: 46px;
+    margin-bottom: 32px;
+  }
+  .fill_form {
+    padding-left: 36px;
+    width: 100%;
+  }
+  .fill_box {
+    margin-top: 0;
+  }
+  .contact_form :nth-child(4) {
+    padding-top: 32px;
+  }
+  .contact_form :nth-child(6) {
+    padding-top: 32px;
+  }
+  .send_message {
+    margin: 36px 0 31px 0;
+  }
+  #username {
+    margin-top: 0;
+    margin-bottom: 21px;
+  }
+  #user_email {
+    margin-bottom: 21px;
+    margin-top: 0;
+  }
+  #user_message {
+    margin-top: 0;
+    margin-bottom: 47px;
+  }
+  .submit {
+    margin-bottom: 36px;
+  }
+  .map_container {
+    padding: 0;
+  }
+  .last_block {
+    margin-top: 32px;
+  }
+  .work_contact {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-bottom: 48px;
+  }
+  .work_text {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    margin-bottom: 33px;
+  }
+  .work_block {
+    width: 100%;
+  }
+  .work_text_head {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .footer_block {
+    margin-top: 32px;
+  }
+  .footer_card_head {
+    font-size: 15px;
+  }
+  .footer_card ul li {
+    font-size: 10px;
+  }
+  .rights {
+    margin-top: 37px;
+    padding-bottom: 32px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
